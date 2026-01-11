@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.xtext.xtext.ui"
+      label="%featureName"
+      version="2.34.0.v20240227-0940"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2009, 2018 itemis AG (http://www.itemis.eu) and others.
+
+This program and the accompanying materials 
+are made available under the terms of the Eclipse Public License 2.0 
+which is available at http://www.eclipse.org/legal/epl-2.0.
+
+SPDX-License-Identifier: EPL-2.0
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.xtext.ui"
+         version="2.34.0.v20240227-0940"/>
+
+   <includes
+         id="org.eclipse.xtext.xtext.ui.graph"
+         version="2.34.0.v20240227-0940"
+         optional="true"/>
+
+   <requires>
+      <import plugin="org.eclipse.emf.mwe2.runtime" version="2.17.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.xtext.activities"
+         download-size="12"
+         install-size="15"
+         version="2.34.0.v20240227-0940"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.activities.source"
+         download-size="10"
+         install-size="12"
+         version="2.34.0.v20240227-0940"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xtext.generator"
+         download-size="1216"
+         install-size="2705"
+         version="2.34.0.v20240227-0940"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.xtext.xtext.generator.source"
+         download-size="920"
+         install-size="3325"
+         version="2.34.0.v20240227-0940"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xtext.ui"
+         download-size="251"
+         install-size="557"
+         version="2.34.0.v20240227-0940"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xtext.ui.source"
+         download-size="105"
+         install-size="321"
+         version="2.34.0.v20240227-0940"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xtext.wizard"
+         download-size="227"
+         install-size="439"
+         version="2.34.0.v20240227-0940"
+         unpack="false"/>
+          
+   <plugin
+         id="org.eclipse.xtext.xtext.wizard.source"
+         download-size="231"
+         install-size="684"
+         version="2.34.0.v20240227-0940"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.doc"
+         download-size="7401"
+         install-size="8552"
+         version="2.34.0.v20240227-0940"/>
+
+</feature>
